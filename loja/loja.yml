@@ -1,1 +1,10 @@
-
+spring:
+  application:
+    name: 'loja'
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mysql://localhost:3366/loja
+  jpa:
+    hibernate:
+      ddl-auto: update
