@@ -2,9 +2,11 @@ spring:
   application:
     name: 'transportador'
   datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/transportador
     password: root
     username: root
-    url: jdbc:mysql://localhost:3306/transportador
+
   jpa:
     hibernate:
       ddl-auto: update
